@@ -1,0 +1,11 @@
+{
+  "name": "login",
+  "app_id": "",
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl":"https://firmjax.emotionsmirror.com/api/mobile" 
+    }
+  ]
+}
