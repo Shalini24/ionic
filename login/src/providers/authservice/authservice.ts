@@ -41,18 +41,18 @@ login(param)
 
 
 
- /*let body=JSON.stringify(param);
+/*let body=JSON.stringify(param);
 
 
- console.log("hiii");
-  console.log(body);
+console.log("hiii");
+console.log(body);
 
-       this.headers = new Headers({ 'Content-Type': 'application/json', 
-                                     'Accept': 'q=0.8;application/json;q=0.9' });
-        this.options = new RequestOptions({ headers: this.headers });
-        return  this.http.post(this.apiUrl+'/login',body,this.options)
-	      .map(this.extractDataLogin)
-	      .catch(error => this.handleError(error));*/
+this.headers = new Headers({ 'Content-Type': 'application/json', 
+                              'Accept': 'q=0.8;application/json;q=0.9' });
+this.options = new RequestOptions({ headers: this.headers });
+return  this.http.post(this.apiUrl+'/login',body,this.options)
+.map(this.extractDataLogin)
+.catch(error => this.handleError(error));*/
 
         
 }
